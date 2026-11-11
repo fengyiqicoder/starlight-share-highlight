@@ -1,0 +1,14 @@
+{
+  "name": "starlight-share-highlight",
+  "version": "0.1.0",
+  "description": "Select text in Starlight docs to copy a link that jumps to and highlights exactly that text, or copy it as a quote with a link back. Free, no account, no backend.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["astro", "starlight", "starlight-plugin", "withastro", "docs", "share", "highlight", "text-fragment", "quote", "deep-link", "selection"],
+  "repository": { "type": "git", "url": "git+https://github.com/fengyiqicoder/starlight-share-highlight.git" },
+  "homepage": "https://github.com/fengyiqicoder/starlight-share-highlight",
+  "exports": { ".": "./index.js", "./client": "./client.js" },
+  "files": ["index.js", "client.js", "plugin.js", "README.md", "LICENSE"],
+  "dependencies": { "starlight-onetag": "^0.4.0" },
+  "peerDependencies": { "@astrojs/starlight": ">=0.32.0", "astro": ">=5.0.0" }
+}
